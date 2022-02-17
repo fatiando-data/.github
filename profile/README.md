@@ -1,4 +1,6 @@
-<h1 align="center">👋 Welcome to the Fatiando a Terra datasets</h1>
+<h1 align="center">👋 Welcome to the Fatiando a Terra FAIR data collection</h1>
+
+![Banner showing small sections of some of the datasets present in the collection](https://github.com/fatiando-data/.github/raw/main/profile/readme-banner.jpg)
 
 This organization houses the curated collection of 
 [FAIR data](https://www.go-fair.org/fair-principles/)
