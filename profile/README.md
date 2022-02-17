@@ -41,4 +41,6 @@ Each data release is also assigned a unique DOI on Zenodo.
 ## Contributing
 
 See our [Contributing Guidelines](https://github.com/fatiando-data/.github/blob/main/CONTRIBUTING.md) 
-for information on proposing new datasets and making changes to existing ones.
+for information on adding new datasets and making changes to existing ones.
+
+**Proposing new datasets:** [Open and issue here](https://github.com/fatiando-data/.github/issues).
