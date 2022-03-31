@@ -13,6 +13,24 @@ under permissive open licenses or in the public domain.
 The curated data are then published as GitHub release artifacts
 and on our [Zenodo community](https://zenodo.org/communities/fatiando/).
 
+---
+
+<div align="center">
+
+⚡
+[**Propose a new dataset**](https://github.com/fatiando-data/.github/issues/new) 
+|
+[**Contributing Guidelines**](https://github.com/fatiando-data/.github/blob/main/CONTRIBUTING.md) 
+|
+[**Code of Conduct**](https://github.com/fatiando-data/.github/blob/main/CODE_OF_CONDUCT.md)
+⚡
+
+</div>
+
+---
+
+<h2 align="center">Downloading the data</h2>
+
 These datasets are the source for the [Ensaio](https://github.com/fatiando/ensaio)
 package and can be easily downloaded with [Pooch](https://github.com/fatiando/pooch):
 
@@ -27,22 +45,18 @@ fname = pooch.retrieve(
 data = pd.read_csv(fname)
 ```
 
-## Versioning
+You'll find the DOI, file name, and MD5 hash of each dataset in their 
+respective repository.
 
-Datasets in this collection use only a single number to denote their versions.
+<h2 align="center">Versioning</h2>
+
+Datasets in this collection **use only a single number to denote their versions**.
 This is because any change to data/metadata can lead to code that relies on 
 them breaking, so [semantic versioning](https://semver.org/) wouldn't make
 sense. 
 New releases are made when data/metadata are changed, added, or deleted.
 Each data release is also assigned a unique DOI on Zenodo.
 
-> We recommend pinning (specifying explicitly) the version of each dataset
+> **We recommend pinning** (specifying explicitly) the version of each dataset
 > in your tutorial or documentation to guarantee that the same version
 > is always used.
-
-## Contributing
-
-See our [Contributing Guidelines](https://github.com/fatiando-data/.github/blob/main/CONTRIBUTING.md) 
-for information on adding new datasets and making changes to existing ones.
-
-**Proposing new datasets:** [Open and issue here](https://github.com/fatiando-data/.github/issues).
