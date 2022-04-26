@@ -8,16 +8,16 @@ assignees: ''
 ---
 Checklist:
 
-- [x] Reserve a DOI on Zenodo and save the entry (fill required information first).
-- [x] Update the DOI in the README
-- [x] Update the release number, file size, and checksums in the README
-- [x] Update the list of changes in the README
-- [x] Fill out the Zenodo metadata and description following the example other Fatiando Data publications and latest changes from the README
-- [x] Create a new release (use the template below). The release name should be the version number with a leading `v` (e.g. `v1`).
-- [x] Upload the new data file to the release
-- [x] Publish the release
-- [x] Upload the new data file to Zenodo
-- [x] Publish the Zenodo archive
+- [ ] Reserve a DOI on Zenodo and save the entry (fill required information first).
+- [ ] Update the DOI in the README
+- [ ] Update the release number, file size, and checksums in the README
+- [ ] Update the list of changes in the README
+- [ ] Fill out the Zenodo metadata and description following the example other Fatiando Data publications and latest changes from the README
+- [ ] Create a new release (use the template below). The release name should be the version number with a leading `v` (e.g. `v1`).
+- [ ] Upload the new data file to the release
+- [ ] Publish the release
+- [ ] Upload the new data file to Zenodo
+- [ ] Publish the Zenodo archive
 
 GitHub release template:
 
