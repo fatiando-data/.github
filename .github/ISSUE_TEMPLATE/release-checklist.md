@@ -1,7 +1,7 @@
 ---
 name: Release checklist
 about: 'Maintainers only: Checklist for making a new release'
-title: 'Release vX.Y.Z'
+title: 'Release vX'
 labels: 'maintenance'
 assignees: ''
 
