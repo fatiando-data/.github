@@ -1,29 +1,29 @@
-<h1 align="center">👋 Welcome to the Fatiando a Terra FAIR data collection</h1>
+<h1 align="center">Welcome to the Fatiando a Terra FAIR data collection</h1>
 
-![Banner showing small sections of some of the datasets present in the collection](https://github.com/fatiando-data/.github/raw/main/profile/readme-banner.jpg)
 
 This organization houses the curated collection of 
 [FAIR data](https://www.go-fair.org/fair-principles/)
 that is used in the [Fatiando a Terra](https://github.com/fatiando)
 project tutorials and documentation.
 
-Each repository here contains Python code to download,
-preprocess, and repackage geophysical data that is available
+Each repository here contains Python code that downloads,
+preprocesses, and repackages geophysical data that is available
 under permissive open licenses or in the public domain.
 The curated data are then published as GitHub release artifacts
 and on our [Zenodo community](https://zenodo.org/communities/fatiando/).
 
+
+![Banner showing small sections of some of the datasets present in the collection](https://github.com/fatiando-data/.github/raw/main/profile/readme-banner.jpg)
+
 ---
 
 <div align="center">
-
-⚡
+    
 [**Propose a new dataset**](https://github.com/fatiando-data/.github/issues/new) 
 |
 [**Contributing Guidelines**](https://github.com/fatiando-data/.github/blob/main/CONTRIBUTING.md) 
 |
 [**Code of Conduct**](https://github.com/fatiando-data/.github/blob/main/CODE_OF_CONDUCT.md)
-⚡
 
 </div>
 
@@ -45,8 +45,8 @@ fname = pooch.retrieve(
 data = pd.read_csv(fname)
 ```
 
-You'll find the DOI, file name, and MD5 hash of each dataset in their 
-respective repository.
+You'll find the DOI, file name, and MD5 hash of each dataset. All can be found in the
+respective data repository.
 
 <h2 align="center">Versioning</h2>
 
@@ -57,6 +57,6 @@ sense.
 New releases are made when data/metadata are changed, added, or deleted.
 Each data release is also assigned a unique DOI on Zenodo.
 
-> **We recommend pinning** (specifying explicitly) the version of each dataset
-> in your tutorial or documentation to guarantee that the same version
-> is always used.
+⚠️ **Important:** We recommend **pinning** (specifying explicitly) the version of 
+each dataset in your tutorial or documentation to guarantee that the same version
+is always used.
